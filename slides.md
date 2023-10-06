@@ -69,87 +69,133 @@ layout: statement
 # Today the browser is almost like an operating system
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: center
+class: text-2xl
 ---
 
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="[3, 4]" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
+- Multi-process architecture
+- Extension and Web Apps
+- Hardware access
+- File system access
+- Task management
+- User account integration
 
 ---
+layout: section
+---
 
-# Components
+# File System Access
+How do the operating system and browser manage this thing?
 
-<div grid="~ cols-2 gap-4">
-<div>
+---
+layout: center
+---
 
-You can use Vue components directly inside your slides.
+# File System Access in the Operating System
+Provides greater flexibility to users.
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+- File permissions
+- Access control lists (ACLs)
+- Security policies
+- Logging and auditing
+- Network file system
 
-```html
-<Counter :count="10" />
-```
+---
+layout: statement
+---
 
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
+# What if we pull this system into the browser domain?
 
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
+---
+layout: center
+---
 
-</div>
-<div>
+It can be implemented, but currently with limitations (unfortunately):
+1. Control
+2. Isolation
+3. Security
+4. Permissions
+5. Use cases
 
-```html
-<Tweet id="1390115482657726468" />
-```
+---
+layout: section
+---
 
-<Tweet id="1390115482657726468" scale="0.65" />
+# So What's Web Filesystem API?
 
-</div>
-</div>
+---
+layout: center
+---
 
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
+# Web Filesystem API
+The term "Web API Filesystem" typically refers to the Filesystem Access API.
 
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
+This API is a part of the broader web platform and allows web applications to interact with the user's local file system from within a web browser.
 
+It provides a set of methods and features for reading, writing, creating, and deleting files and directories.
+
+---
+layout: statement
+---
+
+# What solution does the Web API Filesystem bring?
+
+---
+layout: center
+---
+
+# Web API Filesystem solutions
+1. Access to local files
+2. Offline web apps (PWA)
+3. Data persistence
+4. Document editing
+5. Security
+
+---
+layout: statement
+---
+
+# What about browser support?
+Of course, we also have to pay attention to browser support when talking about Web APIs.
+
+---
+layout: center
+---
+
+<img src="/browser-support-1.png" width="450" height="400" alt="Browser support 1" />
+
+source: MDN
+
+---
+layout: center
+---
+
+`FileSystemWritableFileStream`
+<img src="/browser-support-2.png" width="450" height="400" alt="Browser support 2" />
+
+source: MDN
+
+---
+layout: center
+---
+
+# Web API Filesystem shortcomings
+- Limited browser support
+- Storage quotas
+- Complexity
+- Lack of native integration
+
+---
+layout: center
+---
+
+# Wrap Up
+- File System Access in OS: OS manages files, permissions, and security.
+- Extending to the Browser: Consider bringing OS-like file access to web applications.
+- Web Filesystem API: A JavaScript API enabling file access within the browser.
+- Solutions: Offline web apps, document editing, data persistence.
+- Shortcomings: Limited browser support, storage quotas, complexity.
+- Considerations: User transparency, privacy, and security are vital.
 
 ---
 class: px-20
