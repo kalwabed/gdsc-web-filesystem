@@ -1,0 +1,18 @@
+{
+  "name": "gdsc-web-filesystem",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.6",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-mokkapps": "^1.3.2"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.33"
+  }
+}
