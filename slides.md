@@ -4,13 +4,17 @@ class: text-center
 highlighter: shiki
 lineNumbers: false
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  ## Harnessing Web API Filesystem to Modern Application
+  Presentation slides by Kalwabed Rizki @ GDSC UMS, 11 Oct 2023.
 drawings:
   persist: false
 title: "From OS to Browser: Harnessing Web API Filesystem to Modern Application"
+fonts:
+  # basically the text
+  sans: 'Inter'
+  serif: 'Lora'
+  # for code blocks, inline code, etc.
+  mono: 'Fira Code'
 ---
 
 <h1 class="text-left !text-5xl p-2">
@@ -73,12 +77,28 @@ layout: center
 class: text-2xl
 ---
 
-- Multi-process architecture
-- Extension and Web Apps
-- Hardware access
-- File system access
-- Task management
-- User account integration
+<ul>
+  <li>Multi-process architecture</li>
+  <li>Extension and Web Apps</li>
+  <li>Hardware access</li>
+  <li>File system access</li>
+  <li>Task management</li>
+  <li>User account integration</li>
+</ul>
+
+---
+layout: center
+class: text-2xl
+---
+
+<ul>
+  <li class="c-gray2">Multi-process architecture</li>
+  <li class="c-gray2">Extension and Web Apps</li>
+  <li class="c-gray2">Hardware access</li>
+  <li class="c-blue">File system access</li>
+  <li class="c-gray2">Task management</li>
+  <li class="c-gray2">User account integration</li>
+</ul>
 
 ---
 layout: section
@@ -196,6 +216,14 @@ layout: center
 - Solutions: Offline web apps, document editing, data persistence.
 - Shortcomings: Limited browser support, storage quotas, complexity.
 - Considerations: User transparency, privacy, and security are vital.
+
+---
+layout: end
+---
+
+Thank you!
+
+Slides can be found on [kalwabed.xyz/talks](https://www.kalwabed.xyz/talks)
 
 ---
 class: px-20
