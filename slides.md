@@ -38,29 +38,17 @@ layout: two-cols
     Kalwabed Rizki
   </h1>
 
-  <div class="dark:c-gray-400 c-gray-500">
-    <p>
-      Software Engineer, VNT
-    </p>
-    <p>
-      Organizer, JogjaJS
-    </p>
-  </div>
+  <p class="dark:c-gray-400 c-gray-500 !mb10">
+    Organizer, JogjaJS
+  </p>
 
-  <div class="flex gap-4 items-center mt-10">
-    <ph-globe class="c-gray-500" />
-    <a href="https://pena.kalwabed.xyz">pena.kalwabed.xyz</a>
-  </div>
-  <div class="flex gap-4 items-center my-4">
-    <ph-instagram-logo class="c-gray-500" />
-    <a href="https://www.instagram.com/kalwabed">kalwabed</a>
-  </div>
-  <div class="flex gap-4 items-center">
-    <ph-twitter-logo class="c-gray-500" />
-    <a href="https://twitter.com/kalwabedrzk">kalwabedrzk</a>
-  </div>
-
+- I work as a software engineer at VNT.
+- I have a digital garden in <ph-github-logo class="c-gray-500" /> <a href="https://github.com/kalwabed">kalwabed</a>
+- For some reason, I get used to putting my moments in <ph-instagram-logo class="c-gray-500" /> <a href="https://www.instagram.com/kalwabed">kalwabed</a>
+- and short of my thoughts on <ph-twitter-logo class="c-gray-500" /> <a href="https://twitter.com/kalwabedrzk">kalwabedrzk</a>
+    
 </div>
+
 
 ::right::
 
