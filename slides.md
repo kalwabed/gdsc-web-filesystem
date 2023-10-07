@@ -36,7 +36,7 @@ class: text-center
 
 You can access these slides through
 
-<img src="gdsc-wf-qrcode.svg" width="300" />
+<img src="/gdsc-wf-qrcode.svg" width="300" />
 
 [dub.sh/gdsc-wf](https://dub.sh/gdsc-wf)
 
@@ -112,8 +112,8 @@ layout: center
 
 # File System Access in the Operating System
 
-<img src="filesystem-dark.svg" width="500" class="mx-auto hidden dark:block" />
-<img src="filesystem.svg" width="500" class="mx-auto dark:hidden" />
+<img src="/filesystem-dark.svg" width="500" class="mx-auto hidden dark:block" />
+<img src="/filesystem.svg" width="500" class="mx-auto dark:hidden" />
 
 ---
 layout: two-cols
@@ -131,8 +131,8 @@ Provides greater flexibility to users.
 
 ::right::
 
-<img src="filesystem-dark.svg" width="500" class="mx-auto hidden dark:block" />
-<img src="filesystem.svg" width="500" class="mx-auto dark:hidden" />
+<img src="/filesystem-dark.svg" width="500" class="mx-auto hidden dark:block" />
+<img src="/filesystem.svg" width="500" class="mx-auto dark:hidden" />
 
 ---
 layout: statement
