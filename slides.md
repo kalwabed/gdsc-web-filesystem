@@ -30,6 +30,17 @@ fonts:
 </div>
 
 ---
+layout: center
+class: text-center
+---
+
+You can access these slides through
+
+<img src="gdsc-wf-qrcode.svg" width="300" />
+
+[dub.sh/gdsc-wf](https://dub.sh/gdsc-wf)
+
+---
 layout: two-cols
 ---
 
@@ -80,12 +91,12 @@ class: text-2xl
 ---
 
 <ul>
-  <li class="c-gray2">Multi-process architecture</li>
-  <li class="c-gray2">Extension and Web Apps</li>
-  <li class="c-gray2">Hardware access</li>
+  <li class="c-gray2 dark:c-gray6">Multi-process architecture</li>
+  <li class="c-gray2 dark:c-gray6">Extension and Web Apps</li>
+  <li class="c-gray2 dark:c-gray6">Hardware access</li>
   <li class="c-blue">File system access</li>
-  <li class="c-gray2">Task management</li>
-  <li class="c-gray2">User account integration</li>
+  <li class="c-gray2 dark:c-gray6">Task management</li>
+  <li class="c-gray2 dark:c-gray6">User account integration</li>
 </ul>
 
 ---
