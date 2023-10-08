@@ -2,7 +2,7 @@
 theme: default
 class: text-center
 highlighter: shiki
-lineNumbers: false
+lineNumbers: true
 info: |
   ## Harnessing Web API Filesystem to Modern Application
   Presentation slides by Kalwabed Rizki @ GDSC UMS, 11 Oct 2023.
@@ -251,6 +251,56 @@ layout: center
 5. Development flexibility
 
 ---
+layout: section
+---
+
+# How does File System API work?
+
+---
+layout: center
+---
+
+# How does File System API work?
+
+There are two working concepts:
+
+1. Original private file system
+2. User-visible file system
+
+---
+layout: center
+class: max-w-70% mx-auto
+---
+
+# Original private file system (OPFS)
+Sandboxed storage area specific to a web application, isolated from other apps, and managed by the browser.
+
+---
+---
+
+# Original private file system (OPFS)
+
+```js {all|1|3-5|7-12|14-17|all}
+const opfsRoot = await navigator.storage.getDirectory();
+
+// Create file and directory
+const fileHandle = await opfsRoot.getFileHandle('undangan.txt', {create: true});
+const directoryHandle = await opfsRoot.getDirectoryHandle('acara', {create: true});
+
+// Write
+const contents = 'John doe';
+const writable = await fileHandle.createWritable();
+await writable.write(contents);
+// Close the stream, which persists the contents.
+await writable.close();
+
+// Read
+const file = await fileHandle.getFile();
+const fileContent = await file.text();
+console.log(fileContent);
+```
+
+---
 layout: statement
 ---
 
@@ -293,8 +343,8 @@ layout: center
 - Extend OS-like file access to web apps.
 - Web Filesystem API enables browser file access.
 - Solutions: Offline apps, document editing, data storage.
+- File system have two working concepts: OPVS and UVFS.
 - Shortcomings: Browser limits, storage quotas, complexity.
-- Priorities: User clarity, privacy, security.
 
 ---
 layout: end
