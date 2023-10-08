@@ -87,6 +87,66 @@ class: text-2xl
 
 ---
 layout: center
+class: text-sm
+---
+
+# Multi-process architecture
+
+<img src="/chrome-task-manager.png" width="700" />
+
+[Image source](https://laptrinhx.com/news/modern-multi-process-browser-architecture-2kwev5P)
+
+---
+layout: center
+class: text-sm
+---
+
+# Extension and web apps
+
+<img src="/chrome-extensions.png" width="700" />
+
+[Image source](https://nektony.com/blog/browser-extensions)
+
+---
+layout: center
+class: text-sm
+---
+
+# Hardware access
+
+<img src="/google-meet.png" width="700" />
+
+---
+layout: center
+class: text-sm
+---
+
+# File system access
+
+<img src="/os-filesys.png" width="500" />
+
+---
+layout: center
+class: text-sm
+---
+
+# Task management
+
+<img src="/chrome-task-manager.webp" width="500" />
+
+---
+layout: center
+class: text-sm
+---
+
+# User account integration
+
+<img src="/add-google-chrome-profile.png" width="250" class="mx-auto" />
+
+[Image source](https://mailmeteor.com/blog/how-to-create-google-chrome-profile)
+
+---
+layout: center
 class: text-2xl
 ---
 
