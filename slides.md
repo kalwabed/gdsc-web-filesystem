@@ -301,6 +301,21 @@ console.log(fileContent);
 ```
 
 ---
+layout: center
+class: max-w-70% mx-auto
+---
+
+# User-visible file system
+The portion of the file system that contains the user's personal files and is accessible to all applications on the user's device.
+
+We will be introduced to APIs such as:
+- `showOpenFilePicker()`
+- `showSaveFilePicker()`
+- `showDirectoryPicker()`
+
+that we can use to process input from users more easily but with little browser support.
+
+---
 layout: statement
 ---
 
