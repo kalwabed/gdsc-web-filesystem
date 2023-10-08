@@ -53,6 +53,7 @@ layout: two-cols
     Organizer, JogjaJS
   </p>
 
+- 3 years in the field of software development.
 - I work as a software engineer at VNT.
 - I have a digital garden in <ph-github-logo class="c-gray-500" /> <a href="https://github.com/kalwabed">kalwabed</a>
 - For some reason, I get used to putting my moments in <ph-instagram-logo class="c-gray-500" /> <a href="https://www.instagram.com/kalwabed">kalwabed</a>
