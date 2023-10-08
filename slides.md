@@ -372,5 +372,5 @@ Slides can be found on [kalwabed.xyz/talks](https://www.kalwabed.xyz/talks)
 
 <div class="flex items-center justify-center mt12">
 <ph-github-logo class="c-gray-500" /> <a href="https://github.com/kalwabed/demo-web-filesystem">Repo</a>
-<ph-globe class="c-gray-500 ml8" /> <a href="https://github.com/kalwabed/demo-web-filesystem">Demo</a>
+<ph-globe class="c-gray-500 ml8" /> <a href="https://demo-web-filesystem.netlify.app">Demo</a>
 </div>
