@@ -8,7 +8,7 @@ info: |
   Presentation slides by Kalwabed Rizki @ GDSC UMS, 11 Oct 2023.
 drawings:
   persist: false
-title: "From OS to Browser: Harnessing Web API Filesystem to Modern Application"
+title: "From OS to Browser: Harnessing Web API Filesystem to Modern Applications"
 fonts:
   # basically the text
   sans: 'Inter'
@@ -18,7 +18,7 @@ fonts:
 ---
 
 <h1 class="text-left !text-5xl p-2">
-  From OS to Browser: Harnessing Web API Filesystem to Modern Application
+  From OS to Browser: Harnessing Web API Filesystem to Modern Applications
 </h1>
 
 <div class="absolute bottom-10 flex flex-col">
