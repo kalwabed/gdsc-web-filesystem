@@ -350,7 +350,6 @@ layout: center
 
 # Recap
 - OS manages files, permissions, and security.
-- Extend OS-like file access to web apps.
 - Web Filesystem API enables browser file access.
 - Solutions: Offline apps, document editing, data storage.
 - File system have two working concepts: OPVS and UVFS.
