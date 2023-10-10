@@ -1,6 +1,5 @@
 ---
-theme: default
-class: text-center
+theme: apple-basic
 highlighter: shiki
 lineNumbers: true
 info: |
@@ -206,16 +205,11 @@ layout: center
 ---
 
 It can be implemented, but currently with limitations (unfortunately):
-1. Control
-    - full control over the file system.
-2. Isolation
-    - strong isolation between processes and users.
-3. Security
-    - relies on same-origin policy and user consent.
-4. Permissions 
-    - manages user and group permissions.
-5. Use cases 
-    - interact with files and data within the context of a web page.
+- Control: full control over the file system.
+- Isolation: strong isolation between processes and users.
+- Security: relies on same-origin policy and user consent.
+- Permissions: manages user and group permissions.
+- Use cases: interact with files and data within the context of a web page.
 
 ---
 layout: section
@@ -265,8 +259,8 @@ layout: center
 
 There are two working concepts:
 
-1. Original private file system
-2. User-visible file system
+- Original private file system
+- User-visible file system
 
 ---
 layout: center
